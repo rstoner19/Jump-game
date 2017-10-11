@@ -17,6 +17,8 @@
 		D7ADB6DC1F8DF1420069F8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7ADB6DA1F8DF1420069F8CD /* LaunchScreen.storyboard */; };
 		D7ADB6E71F8DF1420069F8CD /* Wag_n_JumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADB6E61F8DF1420069F8CD /* Wag_n_JumpTests.swift */; };
 		D7ADB6F21F8DF1420069F8CD /* Wag_n_JumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADB6F11F8DF1420069F8CD /* Wag_n_JumpUITests.swift */; };
+		D7ADB7001F8DF2B70069F8CD /* DogNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADB6FF1F8DF2B70069F8CD /* DogNode.swift */; };
+		D7ADB7021F8EA7240069F8CD /* HydrantNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ADB7011F8EA7230069F8CD /* HydrantNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		D7ADB6ED1F8DF1420069F8CD /* Wag'n JumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wag'n JumpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7ADB6F11F8DF1420069F8CD /* Wag_n_JumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wag_n_JumpUITests.swift; sourceTree = "<group>"; };
 		D7ADB6F31F8DF1420069F8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ADB6FF1F8DF2B70069F8CD /* DogNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogNode.swift; sourceTree = "<group>"; };
+		D7ADB7011F8EA7230069F8CD /* HydrantNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				D7ADB6CD1F8DF1420069F8CD /* GameScene.sks */,
 				D7ADB6CF1F8DF1420069F8CD /* Actions.sks */,
 				D7ADB6D11F8DF1420069F8CD /* GameScene.swift */,
+				D7ADB6FF1F8DF2B70069F8CD /* DogNode.swift */,
+				D7ADB7011F8EA7230069F8CD /* HydrantNode.swift */,
 				D7ADB6D31F8DF1420069F8CD /* GameViewController.swift */,
 				D7ADB6D51F8DF1420069F8CD /* Main.storyboard */,
 				D7ADB6D81F8DF1420069F8CD /* Assets.xcassets */,
@@ -270,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7ADB7001F8DF2B70069F8CD /* DogNode.swift in Sources */,
+				D7ADB7021F8EA7240069F8CD /* HydrantNode.swift in Sources */,
 				D7ADB6D21F8DF1420069F8CD /* GameScene.swift in Sources */,
 				D7ADB6D41F8DF1420069F8CD /* GameViewController.swift in Sources */,
 				D7ADB6CC1F8DF1420069F8CD /* AppDelegate.swift in Sources */,
